@@ -1,0 +1,19 @@
+//Bootstrap Customization 
+// $theme-colors: (
+//   'primary': green,
+// );
+
+
+//Import bootstrap from Node Modules
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+//Custom SCSS
+body{
+  background-color: black;
+
+  h1{
+    color: white;
+  }
+
+}
